@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>System Overview | SafePin</title>
+
+    <link rel="stylesheet" href="System.css">
+</head>
+
+<body>
+
+<div class="gov-header">
+    <div class="gov-left">
+        <span class="india-icon">🇮🇳</span>
+        <div>
+            <strong>Government of India</strong>
+            <small>Digital Identity Protection Portal</small>
+        </div>
+    </div>
+
+    <span class="prototype-label">SAFE PIN • PROTOTYPE</span>
+</div>
+
+
+<div class="app">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            <div class="logo-box">
+                S
+            </div>
+
+            <div>
+                <h2>SafePin</h2>
+                <span>Secure Identity Protection</span>
+            </div>
+
+        </div>
+
+
+        <div class="user-box">
+
+            <div class="avatar">
+                AK
+            </div>
+
+            <div>
+                <strong>Aditya Kapoor</strong>
+                <small>Verified Nominee</small>
+            </div>
+
+        </div>
+
+
+        <nav>
+
+            <a href="../Dashboard/Dashboard.html">
+                <span>▣</span>
+                Dashboard
+            </a>
+
+            <a href="../Documents/Documents.html">
+                <span>▤</span>
+                Documents
+            </a>
+
+            <a href="../Request/Request.html">
+                <span>＋</span>
+                New Request
+            </a>
+
+            <a href="../Tracking/Tracking.html">
+                <span>◉</span>
+                Tracking
+            </a>
+
+            <a href="../Notifications/Notifications.html">
+                <span>🔔</span>
+                Notifications
+            </a>
+
+            <a href="../Profile/Profile.html">
+                <span>👤</span>
+                Profile
+            </a>
+
+            <a href="../Security/Security.html">
+                <span>🔐</span>
+                Security Center
+            </a>
+
+            <a href="System.html" class="active">
+                <span>▦</span>
+                System Overview
+            </a>
+
+            <a href="../Login/Login.html" onclick="logout()">
+                <span>⇥</span>
+                Logout
+            </a>
+
+        </nav>
+
+
+        <div class="secure-status">
+
+            <div class="status-dot"></div>
+
+            <div>
+                <strong>System Secure</strong>
+                <small>All services operational</small>
+            </div>
+
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN -->
+    <main class="main">
+
+
+        <!-- TOPBAR -->
+        <header class="topbar">
+
+            <div>
+
+                <div class="breadcrumb">
+                    SafePin / System Overview
+                </div>
+
+                <h1>
+                    System Overview
+                </h1>
+
+                <p>
+                    Monitor SafePin platform health, services and secure processing.
+                </p>
+
+            </div>
+
+
+            <div class="top-actions">
+
+                <span class="live">
+                    ● LIVE
+                </span>
+
+                <div class="top-profile">
+
+                    <div class="small-avatar">
+                        AK
+                    </div>
+
+                    <div>
+                        <strong>Aditya Kapoor</strong>
+                        <small>Verified Nominee</small>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- CONTENT -->
+        <section class="content">
+
+
+            <!-- SYSTEM STATUS -->
+            <div class="system-banner">
+
+                <div class="system-icon">
+                    ✓
+                </div>
+
+                <div class="system-message">
+
+                    <div class="status-heading">
+                        <h2>All Systems Operational</h2>
+                        <span class="status-pill">Operational</span>
+                    </div>
+
+                    <p>
+                        SafePin platform services and connected systems are currently running normally.
+                    </p>
+
+                </div>
+
+                <div class="uptime">
+
+                    <strong>
+                        99.9%
+                    </strong>
+
+                    <span>
+                        System Uptime
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- STATISTICS -->
+            <div class="stats-grid">
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon maroon">
+                        📋
+                    </div>
+
+                    <div>
+
+                        <span>
+                            Active Cases
+                        </span>
+
+                        <strong id="activeCases">
+                            24
+                        </strong>
+
+                        <small>
+                            Currently processing
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon light">
+                        📄
+                    </div>
+
+                    <div>
+
+                        <span>
+                            Documents Processed
+                        </span>
+
+                        <strong id="documentsProcessed">
+                            1,284
+                        </strong>
+
+                        <small>
+                            Through SafePin
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon success">
+                        ✓
+                    </div>
+
+                    <div>
+
+                        <span>
+                            Verification Rate
+                        </span>
+
+                        <strong>
+                            99.8%
+                        </strong>
+
+                        <small>
+                            Successfully verified
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon warning">
+                        ⚡
+                    </div>
+
+                    <div>
+
+                        <span>
+                            Requests Today
+                        </span>
+
+                        <strong id="requestsToday">
+                            18
+                        </strong>
+
+                        <small>
+                            Processing normally
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- CONNECTED SERVICES -->
+            <div class="section-title">
+
+                <div>
+                    <h2>Connected Services</h2>
+
+                    <p>
+                        Status of departments and secure services connected to SafePin.
+                    </p>
+                </div>
+
+                <span class="demo-badge">
+                    Prototype Environment
+                </span>
+
+            </div>
+
+
+            <div class="services-grid">
+
+
+                <div class="service-card">
+
+                    <div class="service-logo">
+                        GOV
+                    </div>
+
+                    <div class="service-info">
+
+                        <h3>
+                            Government Registry
+                        </h3>
+
+                        <p>
+                            Identity and death registration services
+                        </p>
+
+                    </div>
+
+                    <span class="online">
+                        ● Online
+                    </span>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <div class="service-logo">
+                        BANK
+                    </div>
+
+                    <div class="service-info">
+
+                        <h3>
+                            Banking Services
+                        </h3>
+
+                        <p>
+                            Account processing interface
+                        </p>
+
+                    </div>
+
+                    <span class="online">
+                        ● Online
+                    </span>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <div class="service-logo">
+                        ID
+                    </div>
+
+                    <div class="service-info">
+
+                        <h3>
+                            Identity Verification
+                        </h3>
+
+                        <p>
+                            Secure identity matching service
+                        </p>
+
+                    </div>
+
+                    <span class="online">
+                        ● Online
+                    </span>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <div class="service-logo">
+                        API
+                    </div>
+
+                    <div class="service-info">
+
+                        <h3>
+                            Secure API Gateway
+                        </h3>
+
+                        <p>
+                            Institutional communication layer
+                        </p>
+
+                    </div>
+
+                    <span class="online">
+                        ● Operational
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- TWO COLUMN -->
+            <div class="two-column">
+
+
+                <!-- REQUEST PIPELINE -->
+                <div class="card">
+
+                    <div class="card-header">
+
+                        <div>
+
+                            <h3>
+                                Request Processing
+                            </h3>
+
+                            <p>
+                                Current workflow distribution
+                            </p>
+
+                        </div>
+
+                        <span class="card-tag">
+                            LIVE
+                        </span>
+
+                    </div>
+
+
+                    <div class="pipeline">
+
+                        <div class="pipeline-row">
+
+                            <span>
+                                Submitted
+                            </span>
+
+                            <div class="bar">
+                                <div
+                                    class="fill"
+                                    style="width:82%;">
+                                </div>
+                            </div>
+
+                            <strong>
+                                82%
+                            </strong>
+
+                        </div>
+
+
+                        <div class="pipeline-row">
+
+                            <span>
+                                Verification
+                            </span>
+
+                            <div class="bar">
+                                <div
+                                    class="fill"
+                                    style="width:68%;">
+                                </div>
+                            </div>
+
+                            <strong>
+                                68%
+                            </strong>
+
+                        </div>
+
+
+                        <div class="pipeline-row">
+
+                            <span>
+                                Department
+                            </span>
+
+                            <div class="bar">
+                                <div
+                                    class="fill"
+                                    style="width:51%;">
+                                </div>
+                            </div>
+
+                            <strong>
+                                51%
+                            </strong>
+
+                        </div>
+
+
+                        <div class="pipeline-row">
+
+                            <span>
+                                Completed
+                            </span>
+
+                            <div class="bar">
+                                <div
+                                    class="fill"
+                                    style="width:43%;">
+                                </div>
+                            </div>
+
+                            <strong>
+                                43%
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- SYSTEM ACTIVITY -->
+                <div class="card">
+
+                    <div class="card-header">
+
+                        <div>
+
+                            <h3>
+                                System Activity
+                            </h3>
+
+                            <p>
+                                Latest platform events
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="activity-item">
+
+                        <div class="activity-dot green">
+                            ✓
+                        </div>
+
+                        <div>
+
+                            <strong>
+                                Verification service online
+                            </strong>
+
+                            <p>
+                                Identity verification service responded normally.
+                            </p>
+
+                            <small class="activity-time">
+                                2 min ago
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="activity-item">
+
+                        <div class="activity-dot maroon">
+                            API
+                        </div>
+
+                        <div>
+
+                            <strong>
+                                Secure API request processed
+                            </strong>
+
+                            <p>
+                                Institutional request successfully transmitted.
+                            </p>
+
+                            <small class="activity-time">
+                                8 min ago
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="activity-item">
+
+                        <div class="activity-dot orange">
+                            !
+                        </div>
+
+                        <div>
+
+                            <strong>
+                                Request queue updated
+                            </strong>
+
+                            <p>
+                                New document request entered processing.
+                            </p>
+
+                            <small class="activity-time">
+                                15 min ago
+                            </small>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- SECURITY ARCHITECTURE -->
+            <div class="security-overview">
+
+                <div class="security-heading">
+
+                    <div class="security-main-icon">
+                        🔐
+                    </div>
+
+                    <div>
+
+                        <h2>
+                            Secure Processing Architecture
+                        </h2>
+
+                        <p>
+                            SafePin is designed around controlled access, verification and auditable processing.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="security-points">
+
+                    <div>
+                        <span>01</span>
+                        <strong>Identity Verification</strong>
+                        <small>Validate authorized user and identity information.</small>
+                    </div>
+
+                    <div>
+                        <span>02</span>
+                        <strong>Secure Processing</strong>
+                        <small>Route eligible requests through controlled workflows.</small>
+                    </div>
+
+                    <div>
+                        <span>03</span>
+                        <strong>Institution Coordination</strong>
+                        <small>Coordinate secure communication with connected services.</small>
+                    </div>
+
+                    <div>
+                        <span>04</span>
+                        <strong>Audit Trail</strong>
+                        <small>Maintain traceable request and activity records.</small>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- API MONITORING -->
+            <div class="api-card">
+
+                <div class="api-header">
+
+                    <div>
+
+                        <h2>
+                            API & Integration Monitoring
+                        </h2>
+
+                        <p>
+                            Monitoring status of secure institutional communication.
+                        </p>
+
+                    </div>
+
+                    <span class="api-status">
+                        ● All Operational
+                    </span>
+
+                </div>
+
+
+                <div class="api-grid">
+
+                    <div>
+
+                        <span>
+                            API Response Time
+                        </span>
+
+                        <strong>
+                            142 ms
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            Requests Today
+                        </span>
+
+                        <strong>
+                            2,481
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            Successful Requests
+                        </span>
+
+                        <strong>
+                            99.7%
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            Failed Requests
+                        </span>
+
+                        <strong>
+                            0.3%
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="prototype-note">
+                <strong>Prototype Notice:</strong>
+                The statistics and integration statuses shown on this page are demonstration values for the SafePin prototype.
+            </div>
+
+
+        </section>
+
+    </main>
+
+</div>
+
+
+<script src="System.js"></script>
+
+</body>
+
+</html>

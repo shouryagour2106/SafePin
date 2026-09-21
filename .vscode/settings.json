@@ -1,0 +1,30 @@
+{
+    "customFileOrder.rules": {
+        ".": {
+            "order": [
+                "Login.html",
+                "Dashboard.html",
+                "Documents.html",
+                "Request.html",
+                "Tracking.html",
+                "Confirmation.html",
+                "Security.html",
+                "Login.css",
+                "Dashobard.css",
+                "Documents.css",
+                "Request.css",
+                "Tracking.css",
+                "Confirmation.css",
+                "Security.css",
+                "Login.js",
+                "Dashobard.js",
+                "Documents.js",
+                "Request.js",
+                "Tracking.js",
+                "Confirmation.js",
+                "Security.js",
+                ".vscode"
+            ]
+        }
+    }
+}
