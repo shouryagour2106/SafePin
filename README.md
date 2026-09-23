@@ -1,0 +1,1 @@
+Safepin is a secure, centralized platform for managing digital deactivation requests after an individual’s death. It enables authorized users to submit and verify documents, initiate requests across multiple services, track their status, and maintain an auditable record while protecting sensitive information through authentication, access control, and encryption.
